@@ -1,0 +1,336 @@
+@import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+
+
+.csf-container {
+    margin: 0 auto;
+}
+
+.csf-grid-row {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+}
+
+.csf-grid-item-two {
+    flex-basis: 46%;
+    -ms-flex: auto;
+    width: 250px;
+    position: relative;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 15px;
+}
+
+.csf-grid-item-three {
+    flex-basis: 30%;
+    -ms-flex: auto;
+    width: 250px;
+    position: relative;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 15px;
+}
+
+.csf-grid-item-four {
+    flex-basis: 22%;
+    -ms-flex: auto;
+    width: 250px;
+    position: relative;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 15px;
+}
+
+.csf-grid-item-five {
+    flex-basis: 17%;
+    -ms-flex: auto;
+    width: 250px;
+    position: relative;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 15px;
+}
+
+.csf-grid-item-six {
+    flex-basis: 14%;
+    -ms-flex: auto;
+    width: 250px;
+    position: relative;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 15px;
+}
+
+.csf-grid-item-wrapper {
+    -webkit-box-sizing: initial;
+    -moz-box-sizing: initial;
+    box-sizing: initial;
+    border: 1px solid #e1e8ed;
+    margin: 0;
+    padding:12px;
+    width: 100%;
+    overflow: hidden;
+    -webkit-transition: padding 0.15s cubic-bezier(0.4,0,0.2,1), margin 0.15s cubic-bezier(0.4,0,0.2,1), box-shadow 0.15s cubic-bezier(0.4,0,0.2,1);
+    transition: padding 0.15s cubic-bezier(0.4,0,0.2,1), margin 0.15s cubic-bezier(0.4,0,0.2,1), box-shadow 0.15s cubic-bezier(0.4,0,0.2,1);
+    position: relative;
+}
+
+.csf-grid-item-container {
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+@media(max-width: 2249px) {
+
+
+    .csf-grid-item-six {
+        flex-basis: 17%;
+    }
+}
+
+@media(max-width: 1899px) {
+    .csf-grid-item-five {
+        flex-basis: 22%;
+    }
+
+    .csf-grid-item-six {
+        flex-basis: 22%;
+    }
+}
+
+@media(max-width: 1749px) {
+    .csf-grid-item-three {
+        flex-basis: 29%;
+    }
+    .csf-grid-item {
+        flex-basis: 29%;
+    }
+}
+
+@media(max-width: 1399px) {
+    .csf-grid-item-four {
+        flex-basis: 29%;
+    }
+
+    .csf-grid-item-five {
+        flex-basis: 29%;
+    }
+
+    .csf-grid-item-six {
+        flex-basis: 29%;
+    }
+
+}
+
+@media(max-width: 1268px) {
+    .csf-grid-item-two {
+        flex-basis: 44%;
+    }
+    .csf-grid-item-three {
+        flex-basis: 44%;
+    }
+    .csf-grid-item-four {
+        flex-basis: 44%;
+    }
+    .csf-grid-item-five {
+        flex-basis: 44%;
+    }
+    .csf-grid-item-six {
+        flex-basis: 44%;
+    }
+    .csf-grid-item {
+        flex-basis: 44%;
+    }
+}
+
+@media(max-width: 991px) {
+    .csf-grid-item-two {
+        flex-basis: 100%;
+    }
+    .csf-grid-item-three {
+        flex-basis: 100%;
+    }
+    .csf-grid-item-four {
+        flex-basis: 100%;
+    }
+    .csf-grid-item-five {
+        flex-basis: 100%;
+    }
+    .csf-grid-item-six {
+        flex-basis: 100%;
+    }
+    .csf-grid-item {
+        flex-basis: 100%;
+    }
+}
+
+
+.csf-fa-inside-text {
+    padding-left: 5px;
+}
+
+.fa-clone,
+.fa-comment {
+    transform: rotateY(180deg);
+}
+
+.fa-reply:hover {
+    color: #292f33;
+}
+.fa-retweet:hover {
+    color: #5cd65c;
+}
+.fa-heart:hover {
+    color: #ff3333;
+}
+
+
+/*TWITTER*/
+
+.csf-container-twitter {
+    border-left: 1px solid #e1e8ed;
+    border-right: 1px solid #e1e8ed;
+    border-top: 1px solid #e1e8ed;
+    margin: auto;
+    border-radius: 5px;
+}
+
+/* The action list is optional. */
+.csf-tweetEntry-action-list {
+    display: block;
+    line-height: 18px;
+    margin-left: 58px;
+    margin-top: 10px;
+}
+
+/************************/
+
+.csf-tweetEntry {
+
+    cursor: pointer;
+    min-height: 51px;
+    padding: 9px 12px;
+}
+.csf-tweetEntry-content {
+    display: block;
+    font-size: 14px;
+    margin-left: 58px;
+    font-size: 14px;
+}
+.csf-tweetEntry-account-group {
+    color: #8899a6;
+    padding: 0px;
+    text-decoration: none;
+    line-height: 20px;
+}
+.csf-tweetEntry-avatar {
+    float: left;
+    height: 48px;
+    width: 48px;
+    margin-left: -58px;
+    border-radius: 5px;
+}
+.csf-tweetEntry-fullname {
+    font-weight: bold;
+    font-size: 14px;
+    color: #292f33;
+    padding: 0px;
+}
+.csf-tweetEntry-username {
+    font-weight: bold;
+    font-size: 14px;
+    color: #b1bbc3;
+    padding: 0px;
+}
+.csf-tweetEntry-timestamp {
+    font-size: 14px;
+    color: #b1bbc3;
+    padding: 0px;
+}
+.csf-tweetEntry-text-container {
+    font-size: 14px;
+    border-top: 1px solid #e1e8ed;
+    color: #292f33;
+    padding: 10px 0;
+}
+
+.csf-optionalMedia {
+    margin-left: 58px;
+    margin-top: 10px;
+}
+.csf-optionalMedia-img {
+    border-radius: 5px;
+
+}
+
+/*FACEBOOK*/
+
+.csf-grid-item-container .content {
+    padding: 12px;
+}
+
+.csf-grid-item-container .row {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.csf-grid-item-container .row.header {
+    max-height: 40px;
+    margin-bottom: 11px;
+}
+
+.csf-grid-item-container .row.text {
+    font-size: 14px;
+}
+
+.csf-grid-item-container .header .avatar {
+    float: left;
+    width: 40px;
+    height: 40px;
+    margin-right: 8px;
+}
+
+.csf-grid-item-container .header .name {
+    width: calc(100% - 40px - 8px);
+    padding-bottom: 10px;
+}
+
+.csf-grid-item-container .header .name h5 {
+    margin-bottom: 2px;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.csf-grid-item-container .header .name span {
+    color: #9197a3;
+    font-size: 12px;
+}
+
+.csf-grid-item-container hr {
+    height: 1px !important;;
+    margin-bottom: 0 !important;
+    max-width: 100% !important;
+    margin: 20px 0 !important;
+}
+
+.csf-grid-item-container .thumbnail {
+    text-align: center;
+
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    background-position: center;
+}
+
+.csf-grid-item-container .thumbnail img {
+    padding-top: 20px;
+ object-fit: contain;
+    height: 50%;
+    width: 100%;
+}
+
+.csf_error {
+    color: red;
+    font-style: italic;
+}

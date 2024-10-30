@@ -1,0 +1,39 @@
+
+.csf-success-message{
+    color: #46b450;
+}
+.csf-h1 {
+    margin-bottom: 30px !important;
+}
+
+#feeder-admin-form{
+    margin-top: 20px !important;
+}
+
+.csf-form-table td {
+    width: 150px;
+}
+
+.csf-button-section {
+    margin-left: 20px !important;
+}
+
+.csf-url-section {
+    margin-left: 30px;
+    font-size: 14px;
+}
+
+.csf-button-url-content {
+    display: flex;
+    align-items: baseline;
+}
+
+.csf-csf-radio-spaced-form {
+    padding-top: 30px;
+    padding-left: 10px;
+}
+
+.csf-radio-spaced {
+    padding-top: 10px;
+    padding-left: 10px;
+}
